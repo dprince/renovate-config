@@ -22,10 +22,10 @@
     {
       "groupName": "openstack-k8s-operators",
       "matchPackagePatterns": ["^github.com/openstack-k8s-operators"],
-      // dev-preview 1 is versioned as v0.1.x
-      "allowedVersions": "< 0.2.0",
+      // dev-preview2 is versioned as v0.2.x
+      "allowedVersions": "< 0.3.0",
       // we need to override the pseudoversion regex from default.json
-      //"versioning": "semver",
+      "versioning": "semver",
       "enabled": true
     },
     {
